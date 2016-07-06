@@ -1,0 +1,10 @@
+{
+	"name": "learnNode",
+	"version": "0.0.1",
+	"dependencies": {
+		"angular": "1.5.5"
+		},
+		"resolutions": {
+			"angular": "1.5.5"
+		}
+	}

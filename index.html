@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>learnNode</title>
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!-- Scripts -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/services/serviceIndex.js"></script>
+    <script src="js/controllers/controllerIndex.js"></script>
+
+</head>
+<body ng-app="myApp">
+	<div ng-controller="ControllerFunction">
+        
+    <form ng-submit="sendItem(items)" name="items">
+        <input type="text" name="items.name" ng-model='item'>
+        <input type="submit" value="Add item">
+    </form>
+
+    </div>
+</body>
+</html>
