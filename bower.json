@@ -1,7 +1,0 @@
-{
-  "name": "learnNode",
-  "version": "0.0.1",
-  "dependencies": {
-    "react": "~15.2.0"
-  }
-}
