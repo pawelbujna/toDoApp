@@ -16,5 +16,12 @@
     "react-dom": "^15.2.0",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+      "dev": "webpack-dev-server --content-base src --inline --hot",
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "author": "PawelBujna"
 }
